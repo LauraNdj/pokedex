@@ -2,7 +2,7 @@
   "pokemons": [
     {
       "id": "1",
-      "like": 11,
+      "like": 17,
       "name": "Bulbizarre",
       "types": [
         "Grass",
@@ -37,7 +37,7 @@
     },
     {
       "id": "2",
-      "like": 15,
+      "like": 20,
       "name": "Herbizarre",
       "types": [
         "Grass",
@@ -5501,6 +5501,12 @@
       "author": "Me",
       "content": "J'adore ce pokemon",
       "pokemonId": "1"
+    },
+    {
+      "id": "4e8e",
+      "pokemonId": "2",
+      "author": "Me",
+      "content": "super !"
     }
   ]
 }
