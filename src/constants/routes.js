@@ -1,6 +1,6 @@
 export const ROUTES = Object.freeze({
     HOME: '/',
-    DETAIL: '/pokemon/:id',
+    DETAILS: (id = ":id") => `/pokemon/${id}`,
     NOT_FOUND: '*',
   });
   
