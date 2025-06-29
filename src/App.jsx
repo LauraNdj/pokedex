@@ -3,12 +3,14 @@ import Home from "./pages/Home/Home";
 import PokemonDetail from "./pages/PokemonDetail/PokemonDetail";
 import NotFound from "./pages/NotFound/NotFound";
 import { ROUTES } from "./constants/routes";
+import Header from "./components/Header/Header";
 
 
 
 function App() {
   return (
     <BrowserRouter>
+    <Header />
       <Routes>
           <Route path={ROUTES.HOME} element={<Home />} />
           <Route path={ROUTES.DETAILS()} element={<PokemonDetail />} />
