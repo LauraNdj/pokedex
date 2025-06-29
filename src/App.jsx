@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Home from "./pages/Home/Home";
 import PokemonDetail from "./pages/PokemonDetail/PokemonDetail";
 import NotFound from "./pages/NotFound/NotFound";
-import { ROUTES } from "./constants/routes";
+import { ROUTES } from "./routes/routes";
 import Header from "./components/Header/Header";
 
 

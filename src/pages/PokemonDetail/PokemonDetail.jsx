@@ -42,16 +42,6 @@ export default function PokemonDetail() {
   /* img URL */
   const img = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pkmn.id}.svg`;
 
-  /* stats mapping (clé → libellé affiché) */
-  const statLabels = {
-    HP: 'hp',
-    Attack: 'attack',
-    Defense: 'defense',
-    'Special attack': 'specialAttack',
-    'Special defense': 'specialDefense',
-    Speed: 'speed',
-  };
-
   return (
     <article className={styles.wrapper}>
       <header>
@@ -76,7 +66,6 @@ export default function PokemonDetail() {
             key={label}
             label={label}
             value={value}
-            apiKey={statLabels[label]}
           />
         ))}
       </section>

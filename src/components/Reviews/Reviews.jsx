@@ -2,7 +2,6 @@ import { useState } from 'react';
 import styles from './Reviews.module.css';
 import { addReview } from '@/api/reviews';
 
-/* Review list + input (ENTER to submit) */
 export default function Reviews({ pokemonId, reviews, onNew }) {
   const [text, setText] = useState('');
 

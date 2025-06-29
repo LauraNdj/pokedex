@@ -141,7 +141,7 @@
     },
     {
       "id": "5",
-      "like": 12,
+      "like": 16,
       "name": "Reptincel",
       "types": [
         "Fire"
@@ -312,7 +312,7 @@
     },
     {
       "id": "10",
-      "like": 0,
+      "like": 3,
       "name": "Chenipan",
       "types": [
         "Bug"
@@ -380,7 +380,7 @@
     },
     {
       "id": "12",
-      "like": 0,
+      "like": 9,
       "name": "Papilusion",
       "types": [
         "Bug",
@@ -5507,6 +5507,18 @@
       "pokemonId": "2",
       "author": "Me",
       "content": "super !"
+    },
+    {
+      "id": "78f4",
+      "pokemonId": "18",
+      "author": "Me",
+      "content": "Trop bien ce pokemon !"
+    },
+    {
+      "id": "4a8b",
+      "pokemonId": "3",
+      "author": "Me",
+      "content": "Wow mais quelle interface incroyable !"
     }
   ]
 }
