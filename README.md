@@ -74,7 +74,6 @@ Le front recharge automatiquement à chaque sauvegarde (`HMR`).
 | `npm run build`              | Build optimisé dans `dist/` (production).                                           |
 | `npm run preview`            | Prévisualise le build (`dist/`) sur [http://localhost:4173](http://localhost:4173). |
 | `npm run server`             | Démarre **json-server** sur le port 3001 avec `db.json`.                            |
-| `npm run lint` *(optionnel)* | Lint ESLint + Prettier (si configuré ultérieurement).                               |
 
 ---
 
