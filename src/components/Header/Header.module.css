@@ -1,12 +1,46 @@
+/* BARRE en plein écran — toujours 100 % */
 .header {
-    padding: 12px 24px;
-    border-bottom: 1px solid #e5e5e5;
-    background: #fff;
+  width: 100%;                     /* prend toute la largeur */
+  display: flex;
+  align-items: center;
+  justify-content: center;         /* centre le “conteneur” interne */
+  padding: 12px 24px;
+  background: #ffffff;
+  border-bottom: 1px solid #e8e8e8;
+  box-sizing: border-box;          /* le padding est inclus dans les 100 % */
+}
+
+/* CONTENEUR interne (optionnel) pour limiter la largeur sur grand écran */
+.container {
+  width: 100%;
+  max-width: 1200px;               /* breakpoint “desktop” */
+  display: flex;
+  align-items: center;
+}
+
+/* LIEN logo (flex pour icône + mot) */
+.link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+/* Icône Pokéball */
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+/* Mot “Pokédex” */
+.wordmark {
+  width: 96px;
+  height: auto;
+}
+
+/* Responsive — sur petit écran on réduit le mot-logo */
+@media (max-width: 480px) {
+  .wordmark {
+    width: 72px;
   }
-  .logo {
-    font-size: 1.4rem;
-    font-weight: 700;
-    text-decoration: none;
-    color: #e3350d;      /* rouge Pokémon */
-  }
-  
+}

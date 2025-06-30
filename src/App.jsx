@@ -4,17 +4,17 @@ import PokemonDetail from "./pages/PokemonDetail/PokemonDetail";
 import NotFound from "./pages/NotFound/NotFound";
 import { ROUTES } from "./routes/routes";
 import Header from "./components/Header/Header";
-
-
+import Layout from "./layouts/Layout";
 
 function App() {
   return (
     <BrowserRouter>
-    <Header />
       <Routes>
-          <Route path={ROUTES.HOME} element={<Home />} />
+        <Route element={<Layout />}>
+          <Route path={ROUTES.HOME}     element={<Home />} />
           <Route path={ROUTES.DETAILS()} element={<PokemonDetail />} />
           <Route path={ROUTES.NOT_FOUND} element={<NotFound />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

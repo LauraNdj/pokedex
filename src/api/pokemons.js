@@ -39,7 +39,7 @@ export async function likePokemon(id, newLikeCount) {
       headers: { 'Content-Type': 'application/json' },
       body   : JSON.stringify({ like: newLikeCount }),
     });
-    const data = await res.json();      // json-server renvoie l’objet MAJ
+    const data = await res.json();
     return { ok: true, data };
   } catch (error) {
     console.error('likePokemon', error);
